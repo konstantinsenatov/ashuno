@@ -1,0 +1,31 @@
+.screen5
+	.container.screen5__container 
+		.screen__bg
+		.screen5__title.general-title Стать дистрибъютером
+		.screen5__row
+			.screen5__body 
+				.screen5__text.general-text Компания “Ashuno” основана в 1965 году в Нагое инженером-конструктором авиастроительной компании “Aichi” Токуитиро Гомёсом и занималась проектированием автомобильной гидравлики.
+				.screen5__btn.class-desktop Оставить заявку
+				.screen5__btn.class-mobile Партнерам и дистрибьютерам
+				.screen5__btn.class-mobile Хочу купить
+			.screen5__img 
+				img(src="images/screen5/1.png", alt="alt")
+
+	.popup-screen5.class-mobile
+		.popup-screen5__container 
+			.popup-screen5__close
+				img(src="images/x.png", alt="alt")
+			form.popup-screen5__form(action="") 
+				.popup-screen5__left 
+					button.popup-screen5__btn Данные не заполнены
+					.popup-screen5__logo 
+				.popup-screen5__right 
+					.popup-screen5__item 
+						label(for="popup-screen5__input1").popup-screen5__label ФИО*
+						input#popup-screen5__input1.popup-screen5__input(type="text" name="input1" placeholder="Введите ФИО" required)
+					.popup-screen5__item 
+						label(for="popup-screen5__input2").popup-screen5__label Компания
+						input#popup-screen5__input2.popup-screen5__input(type="text" name="input2" placeholder="Введите название компании" required)
+					.popup-screen5__item 
+						label(for="popup-screen5__input3").popup-screen5__label Телефон*
+						input#popup-screen5__input3.popup-screen5__input(type="tel" name="input3" placeholder="+ 7 898 781 88 88" required)

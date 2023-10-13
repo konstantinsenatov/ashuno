@@ -1,0 +1,71 @@
+@font-face {
+	font-family: Gilroy;
+	src: url('../fonts/GilroyBlack/GilroyBlack.eot');
+	src: local('GilroyBlack'), local('../fonts/GilroyBlack/GilroyBlack'),
+		url('../fonts/GilroyBlack/GilroyBlack.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GilroyBlack/GilroyBlack.woff') format('woff'),
+		url('../fonts/GilroyBlack/GilroyBlack.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: Gilroy;
+	src: url('../fonts/GilroyBold/GilroyBold.eot');
+	src: local('GilroyBold'), local('../fonts/GilroyBold/GilroyBold'),
+		url('../fonts/GilroyBold/GilroyBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GilroyBold/GilroyBold.woff') format('woff'),
+		url('../fonts/GilroyBold/GilroyBold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: Gilroy;
+	src: url('../fonts/GilroySemibold/GilroySemibold.eot');
+	src: local('GilroySemibold'), local('../fonts/GilroySemibold/GilroySemibold'),
+		url('../fonts/GilroySemibold/GilroySemibold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GilroySemibold/GilroySemibold.woff') format('woff'),
+		url('../fonts/GilroySemibold/GilroySemibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: Gilroy;
+	src: url('../fonts/GilroyMedium/GilroyMedium.eot');
+	src: local('GilroyMedium'), local('../fonts/GilroyMedium/GilroyMedium'),
+		url('../fonts/GilroyMedium/GilroyMedium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/GilroyMedium/GilroyMedium.woff') format('woff'),
+		url('../fonts/GilroyMedium/GilroyMedium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+@font-face {
+	font-family: Montserrat;
+	font-style: italic;
+	src: url('../fonts/MontserratExtraBoldItalic/MontserratExtraBoldItalic.eot');
+	src: local('MontserratExtraBoldItalic'), local('../fonts/MontserratExtraBoldItalic/MontserratExtraBoldItalic'),
+		url('../fonts/MontserratExtraBoldItalic/MontserratExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MontserratExtraBoldItalic/MontserratExtraBoldItalic.woff') format('woff'),
+		url('../fonts/MontserratExtraBoldItalic/MontserratExtraBoldItalic.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: Montserrat;
+	src: url('../fonts/MontserratBold/MontserratBold.eot');
+	src: local('MontserratBold'), local('../fonts/MontserratBold/MontserratBold'),
+		url('../fonts/MontserratBold/MontserratBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MontserratBold/MontserratBold.woff') format('woff'),
+		url('../fonts/MontserratBold/MontserratBold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+

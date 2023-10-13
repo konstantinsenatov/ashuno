@@ -1,0 +1,30 @@
+/* base */
+@import "base/var";
+@import "base/reset";
+@import "base/fonts";
+
+/* mixin */
+@import "base/mixin";
+
+/*libs*/
+@import "libs/swiper-bundle.min";
+@import "libs/aos";
+
+
+/* main */
+@import "partials/main";
+
+/* components */
+@import "partials/header";
+@import "partials/footer";
+
+
+/*screens*/
+@import "screens/screen1";
+@import "screens/screen2";
+@import "screens/screen3";
+@import "screens/screen4";
+@import "screens/screen5";
+
+
+

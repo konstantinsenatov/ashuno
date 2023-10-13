@@ -1,0 +1,47 @@
+extends ../layouts/default
+
+block vars
+	-
+		const page = {
+			title: 'Главная'
+		};
+
+block main
+	.preload
+		.preload__back 
+		.preload__body
+			.preload__titles.general-title
+				.preload__title.preload__title--withoutanim ASHUNO
+				.preload__title.preload__title--anim ASHUNO
+			.preload__subtitle.general-subtitle КАЧЕСТВЕННЫЕ ЗАПЧАСТИ
+	.screens
+		.screens__swiper.swiper 
+			.screens__swiper-wrapper.swiper-wrapper 
+				.screens__slide.swiper-slide 
+					include ../screens/screen1
+				.screens__slide.swiper-slide 
+					include ../screens/screen2
+				.screens__slide.swiper-slide 
+					include ../screens/screen3
+				.screens__slide.swiper-slide 
+					include ../screens/screen4
+				.screens__slide.swiper-slide 
+					include ../screens/screen5
+	.popup-screen5.class-desktop
+		.popup-screen5__container 
+			.popup-screen5__close
+				img(src="images/x.png", alt="alt")
+			form.popup-screen5__form(action="") 
+				.popup-screen5__left 
+					button.popup-screen5__btn Данные не заполнены
+					.popup-screen5__logo 
+				.popup-screen5__right 
+					.popup-screen5__item 
+						label(for="popup-screen5__input1").popup-screen5__label ФИО*
+						input#popup-screen5__input1.popup-screen5__input(type="text" placeholder="Введите ФИО")
+					.popup-screen5__item 
+						label(for="popup-screen5__input2").popup-screen5__label Компания
+						input#popup-screen5__input2.popup-screen5__input(type="text" placeholder="Введите название компании")
+					.popup-screen5__item 
+						label(for="popup-screen5__input3").popup-screen5__label Телефон*
+						input#popup-screen5__input3.popup-screen5__input(type="tel" placeholder="+ 7 898 781 88 88")
